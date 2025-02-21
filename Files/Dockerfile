@@ -10,5 +10,5 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
-COPY app.py /app/
+COPY Files/app.py /app/
 CMD ["python3","/app/app.py"]
