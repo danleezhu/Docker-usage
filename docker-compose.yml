@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: https://github.com/danleezhu/Docker-usage.git
+      dockerfile: Files/Dockerfile
+    image: deeplost:latest
+    ports:
+      - "5555:5555"
+
